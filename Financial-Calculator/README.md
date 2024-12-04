@@ -43,6 +43,7 @@ This is a Python-based financial calculator that allows users to perform various
    Choose the number corresponding to the desired financial operation and input the required values as prompted.
 
    ## Functions
+   ```python
 1. calculate_annuity(growth, P, r, t, n=12)
   Purpose: Calculate the annuity with either monthly or continuous growth.
   Parameters:
@@ -87,6 +88,7 @@ This is a Python-based financial calculator that allows users to perform various
   Parameters:
   value: The number in scientific notation as a string.
   Returns: The number in standard form.
+```
    
    
   
