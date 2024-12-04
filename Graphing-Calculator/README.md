@@ -73,9 +73,6 @@ Solve and graph quadratic equations.
 ```python
 Example 1: Plotting an Equation
 Input:
-
-plaintext
-Copiar código
 Enter the equation to plot: y = x**2
 Result: A graph of 
 𝑦 =𝑥**2 from 𝑥=−10 to 𝑥=10.
