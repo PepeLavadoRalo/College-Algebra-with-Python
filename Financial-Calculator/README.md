@@ -43,51 +43,59 @@ This is a Python-based financial calculator that allows users to perform various
    Choose the number corresponding to the desired financial operation and input the required values as prompted.
 
    ## Functions
-   ```python
-1. calculate_annuity(growth, P, r, t, n=12)
-  Purpose: Calculate the annuity with either monthly or continuous growth.
-  Parameters:
-  growth: The type of growth ('monthly' or 'continuous').
-  P: The periodic payment (initial amount).
-  r: The annual interest rate (in decimal form, e.g., 5% = 0.05).
-  t: The number of years.
-  n: The number of payment periods per year (default is 12 for monthly).
-  Returns: The calculated annuity value.
-2. calculate_mortgage_payment(P, r, n)
-  Purpose: Calculate the monthly mortgage payment.
-  Parameters:
-  P: The loan amount (principal).
-  r: The monthly interest rate (annual rate divided by 12).
-  n: The number of payments (in months).
-  Returns: The monthly mortgage payment.
-3. estimate_retirement_balance(P, r, t)
-  Purpose: Estimate the balance of an investment after a given number of years.
-  Parameters:
-  P: The initial investment amount.
-  r: The annual interest rate (in decimal form).
-  t: The number of years.
-  Returns: The estimated final balance.
-4. time_to_double(r)
-  Purpose: Use the Rule of 72 to estimate the time it will take for an investment to double.
-  Parameters:
-  r: The annual interest rate (in decimal form).
-  Returns: The number of years it will take for the investment to double.
-5. solve_logarithm(b, y)
-  Purpose: Solve for x in the logarithmic equation log_b(x) = y.
-  Parameters:
-  b: The base of the logarithm.
-  y: The value of the logarithm.
-  Returns: The value of x that satisfies the equation.
-6. convert_to_scientific(value)
-  Purpose: Convert a value to scientific notation.
-  Parameters:
-  value: The number to be converted.
-  Returns: The number in scientific notation.
-7. convert_from_scientific(value)
-  Purpose: Convert a number from scientific notation to standard format.
-  Parameters:
-  value: The number in scientific notation as a string.
-  Returns: The number in standard form.
+## Functions
+
+- `calculate_annuity(growth, P, r, t, n=12)`
+  - **Purpose**: Calculate the annuity with either monthly or continuous growth.
+  - **Parameters**:
+    - *growth*: The type of growth ('monthly' or 'continuous').
+    - *P*: The periodic payment (initial amount).
+    - *r*: The annual interest rate (in decimal form, e.g., 5% = 0.05).
+    - *t*: The number of years.
+    - *n*: The number of payment periods per year (default is 12 for monthly).
+  - **Returns**: The calculated annuity value.
+
+- `calculate_mortgage_payment(P, r, n)`
+  - **Purpose**: Calculate the monthly mortgage payment.
+  - **Parameters**:
+    - *P*: The loan amount (principal).
+    - *r*: The monthly interest rate (annual rate divided by 12).
+    - *n*: The number of payments (in months).
+  - **Returns**: The monthly mortgage payment.
+
+- `estimate_retirement_balance(P, r, t)`
+  - **Purpose**: Estimate the balance of an investment after a given number of years.
+  - **Parameters**:
+    - *P*: The initial investment amount.
+    - *r*: The annual interest rate (in decimal form).
+    - *t*: The number of years.
+  - **Returns**: The estimated final balance.
+
+- `time_to_double(r)`
+  - **Purpose**: Use the Rule of 72 to estimate the time it will take for an investment to double.
+  - **Parameters**:
+    - *r*: The annual interest rate (in decimal form).
+  - **Returns**: The number of years it will take for the investment to double.
+
+- `solve_logarithm(b, y)`
+  - **Purpose**: Solve for x in the logarithmic equation log_b(x) = y.
+  - **Parameters**:
+    - *b*: The base of the logarithm.
+    - *y*: The value of the logarithm.
+  - **Returns**: The value of x that satisfies the equation.
+
+- `convert_to_scientific(value)`
+  - **Purpose**: Convert a value to scientific notation.
+  - **Parameters**:
+    - *value*: The number to be converted.
+  - **Returns**: The number in scientific notation.
+
+- `convert_from_scientific(value)`
+  - **Purpose**: Convert a number from scientific notation to standard format.
+  - **Parameters**:
+    - *value*: The number in scientific notation as a string.
+  - **Returns**: The number in standard form.
+
 ```
    
    
