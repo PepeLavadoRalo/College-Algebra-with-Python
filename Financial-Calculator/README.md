@@ -41,8 +41,7 @@ This is a Python-based financial calculator that allows users to perform various
 3. **Interact with the Application**
    Once the script runs, the program will present a menu of options.
    Choose the number corresponding to the desired financial operation and input the required values as prompted.
-
-   ## Functions
+   
 ## Functions
 
 - `calculate_annuity(growth, P, r, t, n=12)`
