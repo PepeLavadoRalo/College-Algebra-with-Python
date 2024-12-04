@@ -78,40 +78,13 @@ plaintext
 Copiar código
 Enter the equation to plot: y = x**2
 Result: A graph of 
-𝑦
-=
-𝑥
-2
-y=x 
-2
-  from 
-𝑥
-=
-−
-10
-x=−10 to 
-𝑥
-=
-10
-x=10.
+𝑦 =𝑥**2 from 𝑥=−10 to 𝑥=10.
 
 Example 2: Solving a System of Equations
 Input:
-
-plaintext
-Copiar código
 Equation 1: y = 2*x + 1
 Equation 2: y = -x + 3
 Result: The solution 
-𝑥
-=
-0.67
-x=0.67, 
-𝑦
-=
-2.33
-y=2.33 is printed and marked on the graph.
-
-
+𝑥=0.67, 𝑦=2.33 is printed and marked on the graph.
 ```
 
